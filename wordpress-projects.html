@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Angelo Paolo Amon Portfolio</title>
+</head>
+<body>
+	<header style="background: none; height: 80px; position: static;">
+		<div class="apa-header-content text-center" style="height: 80px;">
+			<nav class="apa-navbar" id="apa-navbar-id" style="background-color: #533747;">
+				<div class="container">
+					<div class="row">
+						<div class="apa-header-wrapper">
+							<div class="apa-header-top">
+								<div class="apa-navmenu">
+									<img src="images/my-logo-white.png" alt="mylogo">
+									<div class="apa-toggle-navbar">
+										<i class="fa fa-bars menu" aria-hidden="true"></i>
+									</div>
+									<ul class="nav-links">
+										<li><a href="index.html">Home</a></li>
+										<li><a href="#">About</a></li>
+										<li><a href="projects.html">Portfolio</a></li>
+										<li><a href="#">Contact</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- content -->
+
+	<section class="apa-wordpress-gallery">
+		<div class="container">
+			<div class="row">
+				<div class="apa-inner-wordpress-gallery">
+					<div class="apa-wordpress-gallery-title">
+						<h1>WORDPRESS</h1>
+					</div>
+					<div class="apa-wordpress-sites col-sm-12">
+						<div class="row">
+							<ul>
+								<li class="col-sm-4">
+									<img class="img-fluid" src="images/sandtray-pic2.jpg" alt="sandtray">
+									<h3>Southern Sandtray</h3>
+									<p>A Wordpress site that focuses on the information about the benefits of Sandtray therapy.</p>
+									<a href="http://southernsandtray.com/">Visit Site</a>
+								</li>
+								<li class="col-sm-4">
+									<img class="img-fluid" src="images/formuladone-pic.jpg" alt="formuladone">
+									<h3>Formula Done</h3>
+									<p>A Wordpress site for a digital marketing agency.</p>
+									<a href="http://www.formuladone.com/">Visit Site</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer -->
+
+	<footer class="apa-footer">
+		<div class="apa-footer-inner">
+			<div class="container">
+				<div class="row">
+					<div class="apa-footer-wrapper">
+						<h2>Let's Keep In Touch</h2>
+							<div class="col-md-6 contact-info">
+								<div class="email-info">
+									<h3>Email Address</h3>
+									<p>angeloamon@yahoo.com / angeloamon@gmail.com</p>
+								</div>
+								<div class="contact-num-info">
+									<h3>Contact #</h3>
+									<p>+639329090919</p>
+								</div>
+								<div class="social-media-links">
+									<h3>Social Media</h3>
+									<p>To Be Added</p>
+								</div>
+							</div>
+							<div class="col-md-6 contact-form">
+								<form action="">
+									<div class="form-group">
+										<input type="text" class="form-text form-control" id="email-address" placeholder="Enter Your Name">
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-text form-control" id="email-address" placeholder="Enter Email Address">
+									</div>
+									<div class="form-group">
+										<textarea class="form-text form-control" id="" cols="30" rows="5" placeholder="Write your message here"></textarea>
+									</div>
+									<div class="form-group">
+										<input type="submit" value="Send" class="email-button btn btn-primary btn-lg">
+									</div>
+								</form>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="apa-footer-copyright">
+			<div class="apa-footer-copyright-wrapper">
+				<div class="apa-footer-copyright-info text-center">
+					<small>Designed and developed by Angelo Paolo Amon © 2018</small>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+
+	//mobile navigation menu
+	$('.menu').on('click', function(){
+		$('.nav-links').toggleClass('active');
+		$('.apa-navmenu').toggleClass('navmenu-bg');
+	});
+
+</script>
+</body>
+</html>

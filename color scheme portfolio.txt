@@ -1,0 +1,6 @@
+#9999ff - blue
+#D78521 - image color
+#ffffff - white
+#533747 - footer
+#84E296 - accent/about
+#A663CC - dots
