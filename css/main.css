@@ -150,15 +150,24 @@ header {
             header .apa-header-content .social-icons ul li a {
               font-size: 14px; } }
     header .apa-header-content .scroll-down {
-      color: #ffffff;
-      font-size: 15px;
-      line-height: 40px;
-      border: 2px solid #ffffff;
-      border-radius: 50px;
-      padding: 1px 20px;
       text-align: center;
       position: absolute;
       bottom: 5%; }
+      header .apa-header-content .scroll-down .fa {
+        color: #353535;
+        font-size: 15px;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        padding: 10px;
+        background-color: #ffffff;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        header .apa-header-content .scroll-down .fa:hover {
+          border: 2px solid #1D92D9;
+          background-color: #1D92D9;
+          color: #ffffff; }
 
 .apa-about-content {
   background-color: #ffffff;
