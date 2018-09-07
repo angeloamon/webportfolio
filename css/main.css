@@ -367,7 +367,7 @@ header {
               .apa-sample-projects .apa-sample-projects-inner .apa-sample-projects-wrapper .apa-sample-projects-thumb .apa-project-title p {
                 font-size: 14px; } }
           .apa-sample-projects .apa-sample-projects-inner .apa-sample-projects-wrapper .apa-sample-projects-thumb .apa-project-title a {
-            line-height: 50px;
+            line-height: 60px;
             border: 2px solid #353535;
             color: #353535;
             border-radius: 50px;
@@ -385,6 +385,29 @@ header {
             @media (max-width: 768px) {
               .apa-sample-projects .apa-sample-projects-inner .apa-sample-projects-wrapper .apa-sample-projects-thumb .apa-project-title a {
                 line-height: 30px; } }
+  .apa-sample-projects .apa-design-projects-inner {
+    background-color: #FE4A49;
+    padding: 50px 0; }
+    .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content {
+      margin-top: 30px;
+      color: #ffffff; }
+      .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content a {
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 50px;
+        padding: 10px 30px;
+        line-height: 60px;
+        text-decoration: none;
+        font-weight: bold;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content a:hover {
+          background-color: #1D92D9;
+          border-color: #1D92D9;
+          color: #ffffff;
+          text-decoration: none; }
 
 footer {
   height: 100vh;
@@ -456,7 +479,7 @@ footer {
     top: 0;
     border-style: solid;
     border-width: 30px 50vw 0 50vw;
-    border-color: #ffffff transparent; }
+    border-color: #FE4A49 transparent; }
   @media (max-width: 768px) {
     footer .apa-footer-inner .apa-footer-wrapper {
       margin-bottom: 50px; } }
