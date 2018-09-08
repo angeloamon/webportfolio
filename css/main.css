@@ -389,7 +389,7 @@ header {
     background-color: #FE4A49;
     padding: 50px 0; }
     .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content {
-      margin-top: 30px;
+      margin-top: 100px;
       color: #ffffff; }
       .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content a {
         color: #ffffff;
@@ -408,6 +408,8 @@ header {
           border-color: #1D92D9;
           color: #ffffff;
           text-decoration: none; }
+    .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-image img {
+      width: 400px; }
 
 footer {
   height: 100vh;
