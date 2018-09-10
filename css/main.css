@@ -217,14 +217,15 @@ header {
         .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-bg-image .dummy-text {
           visibility: hidden; }
       .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info {
-        background-color: #FFFBFC;
+        background-color: #FE6847;
         height: 100vh;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center; }
         .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do {
-          width: 60%; }
+          width: 60%;
+          color: #ffffff; }
           @media (max-width: 1366px) {
             .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do {
               width: 90%; } }
@@ -247,6 +248,7 @@ header {
             list-style-type: none; }
             .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li {
               /*background-color: #FE5F55;*/
+              color: #ffffff;
               background-color: #3993DD;
               margin-top: 5px;
               width: 100%;

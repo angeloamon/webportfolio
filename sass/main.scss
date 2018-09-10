@@ -277,8 +277,8 @@ header {
 				}
 			}
 			.apa-skills-info {
-				background-color: #FFFBFC;
-				//background-color: #E8E9F3;
+				//background-color: #FFFBFC;
+				background-color: #FE6847;
 				height: 100vh;
 				display: flex;
 				align-items: center;
@@ -286,6 +286,7 @@ header {
 				justify-content: center;
 				.apa-skills-do {
 					width: 60%;
+					color: $primary-text-color;
 					@media(max-width: $smallscreen) {
 						width: 90%;
 					}
@@ -313,6 +314,7 @@ header {
 						list-style-type: none;
 						li {
 							/*background-color: #FE5F55;*/
+							color: $primary-text-color;
 							background-color: #3993DD;
 							margin-top: 5px;
 							width: 100%;
