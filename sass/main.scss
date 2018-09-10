@@ -278,6 +278,7 @@ header {
 			}
 			.apa-skills-info {
 				background-color: #FFFBFC;
+				//background-color: #E8E9F3;
 				height: 100vh;
 				display: flex;
 				align-items: center;
@@ -508,15 +509,15 @@ header {
 		}
 	}
 	.apa-design-projects-inner {
-		background-color: #FE4A49;
+		background-color: #E8E9F3;
 		padding: 50px 0;
 		.apa-design-projects-wrapper {
 			.apa-design-projects-content {
 				margin-top: 100px;
-				color: $primary-text-color;
+				color: #353535;
 				a {
-					color: $primary-text-color;
-					border: 2px solid $primary-text-color;
+					color: #353535;
+					border: 2px solid #353535;
 					border-radius: 50px;
 					padding: 10px 30px;
 					line-height: 60px; 
@@ -564,7 +565,7 @@ footer {
 	 	top: 0;
 	  	border-style: solid;
 	  	border-width: 30px 50vw 0 50vw;
-	  	border-color: #FE4A49 transparent;
+	  	border-color: #E8E9F3 transparent;
 	}
 	/*&::before {
 		content: '';
@@ -633,7 +634,7 @@ footer {
 			h2 {
 				color: $primary-text-color;
 				text-align: center;
-				margin-bottom: 5%;
+				margin-bottom: 2%;
 				@media(max-width: $phone) {
 					font-size: 25px;
 				}
@@ -732,8 +733,19 @@ footer {
 						}
 					}
 				}
+				.apa-email-button {
+					margin-top: 30px;
+					a {
+						padding: 15px 60px;
+						color: $primary-text-color;
+						background-color: $secondary-color;
+						text-decoration: none;
+						font-weight: bold;
+						font-size: 20px;
+					}
+				}
 			}
-			.contact-form {
+			/*.contact-form {
 				.form-text {
 					border-radius: 0;
 					font-size: 18px;
@@ -756,7 +768,7 @@ footer {
 						font-size: 14px;
 					}
 				}
-			}
+			}*/
 		}
 	}
 	.apa-footer-copyright {
