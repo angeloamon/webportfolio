@@ -518,15 +518,24 @@ header {
 		padding: 50px 0;
 		.apa-design-projects-wrapper {
 			.apa-design-projects-content {
-				margin-top: 100px;
-				color: #353535;
+				padding: 30px;
+				h3 {
+					@media(max-width: $phone) {
+						font-size: 18px;
+					}
+				}
+				p {
+					margin-bottom: 10px;
+					@media(max-width: $phone) {
+						font-size: 14px;
+					}
+				}
 				a {
-					color: #353535;
+					line-height: 60px; 
 					border: 2px solid #353535;
+					color: #353535;
 					border-radius: 50px;
 					padding: 10px 30px;
-					line-height: 60px; 
-					text-decoration: none;
 					font-weight: bold;
 					-webkit-transition: 0.3s;
 					-moz-transition: 0.3s;
@@ -538,12 +547,15 @@ header {
 						color: $primary-text-color;
 						text-decoration: none;
 					}
-				}
-				@media(max-width: $phone) {
-					padding: 0 40px;
+					@media(max-width: $phone) {
+						line-height: 30px;
+					}
 				}
 			}
 			.apa-design-projects-image {
+				@media(max-width: $phone) {
+					margin-top: 0;
+				}
 				img {
 					width: 400px;
 						@media(max-width: $phone) {
@@ -936,6 +948,123 @@ footer {
 			}
 		}
 		.apa-wordpress-sites {
+			margin-bottom: 60px;
+			ul {
+				margin: 0;
+				padding: 0;
+				li {
+					list-style-type: none;
+					@media(max-width: $phone){
+						margin-top: 40px;
+						margin-bottom: 40px;
+					}
+					img {
+						height: 300px;
+						width: 100%;
+						object-fit: cover;
+					}
+					p {
+						margin-bottom: 10px;
+					}
+					a {
+						line-height: 50px; 
+						border: 2px solid #353535;
+						color: #353535;
+						border-radius: 50px;
+						padding: 10px 30px;
+						font-weight: bold;
+						-webkit-transition: 0.3s;
+						-moz-transition: 0.3s;
+						-o-transition: 0.3s;
+						transition: 0.3s;
+						&:hover {
+							background-color: $secondary-color;
+							border-color: $secondary-color;
+							color: $primary-text-color;
+							text-decoration: none;
+						}
+						@media(max-width: $phone) {
+							line-height: 30px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// React Page Custom CSS
+
+.apa-react-projects-inner {
+	padding: 50px 0;
+	.apa-react-projects-wrapper {
+		.apa-react-projects-image {
+			@media(max-width: $phone) {
+				margin-top: 0;
+			}
+			img {
+				max-width: 400px;
+					@media(max-width: $phone) {
+						width: 300px;
+					}
+			}
+		}
+		.apa-react-projects-content {
+			padding: 30px;
+			h3 {
+				@media(max-width: $phone) {
+					font-size: 18px;
+				}
+			}
+			p {
+				margin-bottom: 10px;
+				@media(max-width: $phone) {
+					font-size: 14px;
+				}
+			}
+			a {
+				line-height: 60px; 
+				border: 2px solid #353535;
+				color: #353535;
+				border-radius: 50px;
+				padding: 10px 30px;
+				font-weight: bold;
+				-webkit-transition: 0.3s;
+				-moz-transition: 0.3s;
+				-o-transition: 0.3s;
+				transition: 0.3s;
+				&:hover {
+					background-color: $secondary-color;
+					border-color: $secondary-color;
+					color: $primary-text-color;
+					text-decoration: none;
+				}
+				@media(max-width: $phone) {
+					line-height: 30px;
+				}
+			}
+		}
+	}
+}
+
+// REACT PROJECTS CSS
+
+.apa-react-gallery {
+	height: auto;
+	padding: 50px 0;
+	.apa-inner-react-gallery {
+		.apa-react-gallery-title {
+			h1 {
+				font-size: 10em;
+				opacity: 0.3;
+				@media(max-width: $phone){
+					font-size: 3em;
+					padding: 0 15px;
+					opacity: 1;
+				}
+			}
+		}
+		.apa-react-apps {
 			margin-bottom: 60px;
 			ul {
 				margin: 0;

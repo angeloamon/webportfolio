@@ -391,15 +391,21 @@ header {
     background-color: #E8E9F3;
     padding: 50px 0; }
     .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content {
-      margin-top: 100px;
-      color: #353535; }
+      padding: 30px; }
+      @media (max-width: 768px) {
+        .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content h3 {
+          font-size: 18px; } }
+      .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content p {
+        margin-bottom: 10px; }
+        @media (max-width: 768px) {
+          .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content p {
+            font-size: 14px; } }
       .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content a {
-        color: #353535;
+        line-height: 60px;
         border: 2px solid #353535;
+        color: #353535;
         border-radius: 50px;
         padding: 10px 30px;
-        line-height: 60px;
-        text-decoration: none;
         font-weight: bold;
         -webkit-transition: 0.3s;
         -moz-transition: 0.3s;
@@ -410,9 +416,12 @@ header {
           border-color: #1D92D9;
           color: #ffffff;
           text-decoration: none; }
-      @media (max-width: 768px) {
-        .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content {
-          padding: 0 40px; } }
+        @media (max-width: 768px) {
+          .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content a {
+            line-height: 30px; } }
+    @media (max-width: 768px) {
+      .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-image {
+        margin-top: 0; } }
     .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-image img {
       width: 400px; }
       @media (max-width: 768px) {
@@ -769,6 +778,94 @@ footer {
             text-decoration: none; }
           @media (max-width: 768px) {
             .apa-wordpress-gallery .apa-inner-wordpress-gallery .apa-wordpress-sites ul li a {
+              line-height: 30px; } }
+
+.apa-react-projects-inner {
+  padding: 50px 0; }
+  @media (max-width: 768px) {
+    .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-image {
+      margin-top: 0; } }
+  .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-image img {
+    max-width: 400px; }
+    @media (max-width: 768px) {
+      .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-image img {
+        width: 300px; } }
+  .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content {
+    padding: 30px; }
+    @media (max-width: 768px) {
+      .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content h3 {
+        font-size: 18px; } }
+    .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content p {
+      margin-bottom: 10px; }
+      @media (max-width: 768px) {
+        .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content p {
+          font-size: 14px; } }
+    .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content a {
+      line-height: 60px;
+      border: 2px solid #353535;
+      color: #353535;
+      border-radius: 50px;
+      padding: 10px 30px;
+      font-weight: bold;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content a:hover {
+        background-color: #1D92D9;
+        border-color: #1D92D9;
+        color: #ffffff;
+        text-decoration: none; }
+      @media (max-width: 768px) {
+        .apa-react-projects-inner .apa-react-projects-wrapper .apa-react-projects-content a {
+          line-height: 30px; } }
+
+.apa-react-gallery {
+  height: auto;
+  padding: 50px 0; }
+  .apa-react-gallery .apa-inner-react-gallery .apa-react-gallery-title h1 {
+    font-size: 10em;
+    opacity: 0.3; }
+    @media (max-width: 768px) {
+      .apa-react-gallery .apa-inner-react-gallery .apa-react-gallery-title h1 {
+        font-size: 3em;
+        padding: 0 15px;
+        opacity: 1; } }
+  .apa-react-gallery .apa-inner-react-gallery .apa-react-apps {
+    margin-bottom: 60px; }
+    .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul {
+      margin: 0;
+      padding: 0; }
+      .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li {
+        list-style-type: none; }
+        @media (max-width: 768px) {
+          .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li {
+            margin-top: 40px;
+            margin-bottom: 40px; } }
+        .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li img {
+          height: 300px;
+          width: 100%;
+          object-fit: cover; }
+        .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li p {
+          margin-bottom: 10px; }
+        .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li a {
+          line-height: 50px;
+          border: 2px solid #353535;
+          color: #353535;
+          border-radius: 50px;
+          padding: 10px 30px;
+          font-weight: bold;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+          .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li a:hover {
+            background-color: #1D92D9;
+            border-color: #1D92D9;
+            color: #ffffff;
+            text-decoration: none; }
+          @media (max-width: 768px) {
+            .apa-react-gallery .apa-inner-react-gallery .apa-react-apps ul li a {
               line-height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
