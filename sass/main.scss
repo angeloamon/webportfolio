@@ -582,7 +582,8 @@ footer {
 	 	top: 0;
 	  	border-style: solid;
 	  	border-width: 30px 50vw 0 50vw;
-	  	border-color: #E8E9F3 transparent;
+	  	border-color: #ffffff transparent;
+	  	//border-color: #E8E9F3 transparent;
 	}
 	/*&::before {
 		content: '';
@@ -895,6 +896,10 @@ footer {
 						margin-top: 40px;
 						margin-bottom: 40px;
 					}
+					div {
+						padding-top: 20px;
+						padding-bottom: 20px;
+					}
 					img {
 						height: 300px;
 						width: 100%;
@@ -957,6 +962,10 @@ footer {
 					@media(max-width: $phone){
 						margin-top: 40px;
 						margin-bottom: 40px;
+					}
+					div {
+						padding-top: 20px;
+						padding-bottom: 20px;
 					}
 					img {
 						height: 300px;

@@ -499,7 +499,7 @@ footer {
     top: 0;
     border-style: solid;
     border-width: 30px 50vw 0 50vw;
-    border-color: #E8E9F3 transparent; }
+    border-color: #ffffff transparent; }
   footer .apa-footer-inner .apa-footer-wrapper {
     /*.contact-form {
     	.form-text {
@@ -705,6 +705,9 @@ footer {
           .apa-shopify-gallery .apa-inner-shopify-gallery .apa-shopify-sites ul li {
             margin-top: 40px;
             margin-bottom: 40px; } }
+        .apa-shopify-gallery .apa-inner-shopify-gallery .apa-shopify-sites ul li div {
+          padding-top: 20px;
+          padding-bottom: 20px; }
         .apa-shopify-gallery .apa-inner-shopify-gallery .apa-shopify-sites ul li img {
           height: 300px;
           width: 100%;
@@ -754,6 +757,9 @@ footer {
           .apa-wordpress-gallery .apa-inner-wordpress-gallery .apa-wordpress-sites ul li {
             margin-top: 40px;
             margin-bottom: 40px; } }
+        .apa-wordpress-gallery .apa-inner-wordpress-gallery .apa-wordpress-sites ul li div {
+          padding-top: 20px;
+          padding-bottom: 20px; }
         .apa-wordpress-gallery .apa-inner-wordpress-gallery .apa-wordpress-sites ul li img {
           height: 300px;
           width: 100%;
