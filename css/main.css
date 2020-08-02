@@ -274,20 +274,22 @@ header {
                 width: 15%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-javascript::before {
                 width: 25%; }
-              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-jquery::before {
-                width: 25%; }
+              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-react::before {
+                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-wordpress::before {
                 width: 20%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-php::before {
-                width: 40%; }
+                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-mysql::before {
-                width: 40%; }
+                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-liquid::before {
                 width: 30%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-json::before {
                 width: 25%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-photoshop::before {
                 width: 20%; }
+              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-illustrator::before {
+                width: 30%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-lightroom::before {
                 width: 20%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li p {
@@ -305,6 +307,7 @@ header {
 .apa-sample-projects {
   height: auto;
   position: relative;
+  background-color: #E8E9F3;
   /*&::before {
   	content: '';
   	position: absolute;
@@ -388,7 +391,7 @@ header {
               .apa-sample-projects .apa-sample-projects-inner .apa-sample-projects-wrapper .apa-sample-projects-thumb .apa-project-title a {
                 line-height: 30px; } }
   .apa-sample-projects .apa-design-projects-inner {
-    background-color: #E8E9F3;
+    background-color: #ffffff;
     padding: 50px 0; }
     .apa-sample-projects .apa-design-projects-inner .apa-design-projects-wrapper .apa-design-projects-content {
       padding: 30px; }
