@@ -353,26 +353,26 @@ header {
 									width: 25%;
 								}
 							}
-							&.apa-react {
+							/* &.apa-react {
 								&::before {
 									width: 50%;
 								}
-							}
+							} */
 							&.apa-wordpress {
 								&::before {
 									width: 20%;
 								}
 							}
-							&.apa-php {
+							/* &.apa-php {
 								&::before {
 									width: 50%;
 								}
 							}
-							&.apa-mysql {
+							 &.apa-mysql {
 								&::before {
 									width: 50%;
 								}
-							}
+							} */
 							&.apa-liquid {
 								&::before {
 									width: 30%;
@@ -396,6 +396,16 @@ header {
 							&.apa-lightroom {
 								&::before {
 									width: 20%;
+								}
+							}
+							&.apa-xd {
+								&::before {
+									width: 30%;
+								}
+							}
+							&.apa-indesign {
+								&::before {
+									width: 50%;
 								}
 							}
 							p {

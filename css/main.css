@@ -253,7 +253,22 @@ header {
               margin-top: 5px;
               width: 100%;
               height: 30px;
-              position: relative; }
+              position: relative;
+              /* &.apa-react {
+              	&::before {
+              		width: 50%;
+              	}
+              } */
+              /* &.apa-php {
+              	&::before {
+              		width: 50%;
+              	}
+              }
+               &.apa-mysql {
+              	&::before {
+              		width: 50%;
+              	}
+              } */ }
               @media (max-width: 320px) {
                 .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li {
                   height: 20px; } }
@@ -274,14 +289,8 @@ header {
                 width: 15%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-javascript::before {
                 width: 25%; }
-              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-react::before {
-                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-wordpress::before {
                 width: 20%; }
-              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-php::before {
-                width: 50%; }
-              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-mysql::before {
-                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-liquid::before {
                 width: 30%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-json::before {
@@ -292,6 +301,10 @@ header {
                 width: 30%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-lightroom::before {
                 width: 20%; }
+              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-xd::before {
+                width: 30%; }
+              .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li.apa-indesign::before {
+                width: 50%; }
               .apa-skills-content .apa-skills-content-inner .apa-skills-content-wrapper .apa-skills-info .apa-skills-do ul li p {
                 font-size: 16px;
                 padding: 0 10px;
